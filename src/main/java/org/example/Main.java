@@ -4,6 +4,7 @@ import org.example.armstrongnumber.ArmstrongNumber;
 import org.example.factorialnumber.FactorialNumber;
 import org.example.fibonacci.FibonacciSeries;
 import org.example.matrixmultiplication.Matrix;
+import org.example.patterns.Patterns;
 import org.example.polindrom.Polindrom;
 import org.example.primenumber.PrimeNumber;
 import org.example.stringreverse.StringReverse;
@@ -16,6 +17,7 @@ public class Main {
         //new Polindrom().polindrom();
         //new PrimeNumber().isPrimeNumber();
         //new ArmstrongNumber().isArmstrongNumber();
-        new Matrix().multiplication();
+        //new Matrix().multiplication();
+        new Patterns().displayPattern();
     }
 }
